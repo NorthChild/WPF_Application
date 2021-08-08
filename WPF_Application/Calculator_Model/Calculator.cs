@@ -26,5 +26,10 @@ namespace Calculator_Model
             return Num1 * Num2;
         }
 
+        public double Modulo()
+        {
+            return Num1 % Num2;
+        }
+
     }
 }
